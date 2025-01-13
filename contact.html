@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect - Susheem Pandey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("veR-bxD1RwABMHo0Y");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SUSHEEM PANDEY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Connect</a></li>
+                    <li class="nav-item"><a class="nav-link" href="advocacy-legal.html">Legal Advocacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speaker.html">Speaker Profile</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="solar-projects.html">Solar Projects</a></li>
+                            <li><a class="dropdown-item" href="power-distribution.html">Power Distribution</a></li>
+                            <li><a class="dropdown-item" href="energy-management.html">Energy Management</a></li>
+                            <li><a class="dropdown-item" href="business-development.html">Business Development</a></li>
+                            <li><a class="dropdown-item" href="leadership.html">Leadership</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="text-light">
+            <h1 class="display-4">Let's Connect</h1>
+            <p class="lead">
+                <span style="color: #ffffff; font-weight: 600;">Available for</span> 
+                <span style="color: #ffffff; font-weight: 600;">Consultations</span>, 
+                <span style="color: #ffffff; font-weight: 600;">Speaking Engagements</span> & 
+                <span style="color: #ffffff; font-weight: 600;">Project Collaborations</span>
+            </p>
+            <div class="mt-4">
+                <a href="#instant-connect" class="btn btn-lg btn-highlight">Get in Touch</a>
+                <a href="about.html" class="btn btn-lg btn-outline-light ms-3">About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Instant Connect Section -->
+    <section id="instant-connect" class="py-5 bg-gradient">
+        <div class="container">
+            <h2 class="section-title">Quick Connect Options</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="tile connect-tile">
+                        <div class="connect-icon whatsapp">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        </div>
+                        <h5>WhatsApp Business</h5>
+                        <p>Instant Response within 2 hours</p>
+                        <div class="connect-actions">
+                            <a href="https://wa.me/919810336031?text=Hi%20Susheem%2C%20I%20would%20like%20to%20discuss%20about%20energy%20solutions" 
+                               class="btn btn-whatsapp w-100" 
+                               target="_blank">
+                                <i class="fab fa-whatsapp me-2"></i>Chat Now
+                            </a>
+                            <span class="availability">Available 24/7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile connect-tile">
+                        <div class="connect-icon telegram">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </div>
+                        <h5>Telegram Channel</h5>
+                        <p>Updates & Announcements</p>
+                        <div class="connect-actions">
+                            <a href="https://t.me/susheempandey" 
+                               class="btn btn-telegram w-100" 
+                               target="_blank">
+                                <i class="fab fa-telegram me-2"></i>Join Channel
+                            </a>
+                            <span class="members">5000+ Members</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile connect-tile">
+                        <div class="connect-icon video">
+                            <i class="fas fa-video fa-2x"></i>
+                        </div>
+                        <h5>Video Call</h5>
+                        <p>Schedule a Video Consultation</p>
+                        <div class="connect-actions">
+                            <a href="#" 
+                               class="btn btn-video w-100"
+                               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/susheempandey/30min'}); return false;">
+                                <i class="fas fa-calendar-alt me-2"></i>Schedule
+                            </a>
+                            <span class="duration">30 min consultation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile connect-tile">
+                        <div class="connect-icon call">
+                            <i class="fas fa-phone fa-2x"></i>
+                        </div>
+                        <h5>Direct Call</h5>
+                        <p>Available for Voice Calls</p>
+                        <div class="connect-actions">
+                            <a href="tel:+919810336031" 
+                               class="btn btn-call w-100" 
+                               onclick="initiateCall()">
+                                <i class="fas fa-phone me-2"></i>Call Now
+                            </a>
+                            <span class="availability">Business Hours</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="locations" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Our Locations</h2>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=77.1990,28.6139,77.2190,28.6339&layer=mapnik&marker=28.6139,77.2090" 
+                            style="border: 0; width: 100%; height: 100%;" 
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="office-cards">
+                        <div class="office-card" onclick="focusLocation('delhi')">
+                            <div class="office-info">
+                                <h4>Delhi Office</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Alaknanda, New Delhi</p>
+                                <p><i class="fas fa-phone"></i> +91 98103 36031 </p>
+                                <p><i class="fas fa-envelope"></i>susheem66@yahoo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add standardized contact form section -->
+    <section id="contact" class="contact-gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Let's Connect</h2>
+                    <p class="lead">Discuss your energy and legal requirements</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 9810336031</p>
+                        <p><i class="fas fa-envelope"></i> contact@susheempandey.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" onsubmit="return sendMail(event)">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-highlight w-100">Send Message</button>
+                        </form>
+                        <div id="successMessage" style="display:none" class="alert alert-success mt-3">
+                            Message sent successfully!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/919810336031?text=Hi%20Susheem%2C%20I%20would%20like%20to%20discuss%20about%20energy%20solutions" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Chat with us</span>
+    </a>
+
+    <!-- Add necessary modals for video call scheduling and callback -->
+
+    <!-- Social Connect -->
+    <section class="py-5 contact-gradient">
+        <div class="container">
+            <h2 class="section-title">Connect on Social Media</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="social-connect-card text-center">
+                        <div class="social-links">
+                            <a href="#" class="mx-3"><i class="fab fa-linkedin fa-3x"></i></a>
+                            <a href="#" class="mx-3"><i class="fab fa-twitter fa-3x"></i></a>
+                            <a href="#" class="mx-3"><i class="fab fa-facebook fa-3x"></i></a>
+                            <a href="#" class="mx-3"><i class="fab fa-instagram fa-3x"></i></a>
+                        </div>
+                        <p class="mt-4 text-light">Follow for updates on energy innovation and sustainability</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Susheem Pandey | Solar Innovation & Advocacy</p>
+            <div>
+                <a href="#" class="mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Add before closing body tag -->
+    <script>
+        // Function to open Calendly
+        function openCalendly() {
+            Calendly.initPopupWidget({
+                url: 'https://calendly.com/susheempandey/30min'
+            });
+        }
+
+        // Function to make a phone call
+        function makeCall() {
+            window.location.href = 'tel:+919876543210';
+        }
+
+        // Initialize Calendly
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof Calendly !== 'undefined') {
+                Calendly.initBadgeWidget({
+                    url: 'https://calendly.com/susheempandey/30min',
+                    text: 'Schedule time with me',
+                    color: '#4a90e2',
+                    textColor: '#ffffff'
+                });
+            }
+        });
+
+        // Quick Connect Functions
+        function openWhatsApp() {
+            const message = "Hi Susheem, I would like to discuss about energy solutions";
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/919876543210?text=${encodedMessage}`, '_blank');
+        }
+
+        function openTelegram() {
+            window.open('https://t.me/susheempandey', '_blank');
+        }
+
+        function openSchedule() {
+            if (typeof Calendly !== 'undefined') {
+                Calendly.initPopupWidget({
+                    url: 'https://calendly.com/susheempandey/30min'
+                });
+            } else {
+                alert('Scheduling system is loading. Please try again in a moment.');
+            }
+        }
+
+        function initiateCall() {
+            window.location.href = 'tel:+919810336031';
+        }
+
+        // Initialize Calendly when document is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load Calendly script dynamically
+            const calendlyScript = document.createElement('script');
+            calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
+            calendlyScript.async = true;
+            document.body.appendChild(calendlyScript);
+        });
+
+        function sendMail(e) {
+            e.preventDefault();
+            
+            const btn = e.target.querySelector('button[type="submit"]');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = 'Sending...';
+            btn.disabled = true;
+
+            const templateParams = {
+                from_name: e.target.name.value,
+                email: e.target.email.value,
+                message: e.target.message.value
+            };
+
+            emailjs.send('service_6f132go', 'template_0iyqqa4', templateParams)
+                .then(function() {
+                    document.getElementById('successMessage').style.display = 'block';
+                    e.target.reset();
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        document.getElementById('successMessage').style.display = 'none';
+                    }, 5000);
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    alert('Failed to send message. Please try again.');
+                });
+
+            return false;
+        }
+    </script>
+
+    <!-- Calendly widget script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</body>
+</html>

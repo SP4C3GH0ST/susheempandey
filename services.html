@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Susheem Pandey</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Custom Styles -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn-custom {
+            background-color: #1f6feb;
+            color: white;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #154c8c;
+            transform: scale(1.05);
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #0b0d17;
+        }
+
+        .navbar-brand {
+            color: #fbbc04 !important;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: #fff !important;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #fbbc04 !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 50vh;
+            background: linear-gradient(90deg, #0b0d17, #1a1e3d), url('images/services.jpg') no-repeat center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        /* Service Cards */
+        .service-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-card .icon {
+            font-size: 3rem;
+            color: #1f6feb;
+            margin-bottom: 15px;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #1f6feb, #154c8c);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .cta a {
+            background-color: #fbbc04;
+            color: #333;
+            border-radius: 30px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta a:hover {
+            background-color: #e9a200;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0b0d17;
+            color: white;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #fbbc04;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SUSHEEM PANDEY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speaker.html">Speaker</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Our Services</h1>
+            <p>Providing Excellence in Solar Energy Solutions</p>
+        </div>
+    </section>
+
+    <!-- Service Cards -->
+    <section class="container py-5" data-aos="fade-up">
+        <h2 class="text-center mb-5">Key Services</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-file-alt icon"></i>
+                        <h5 class="card-title fw-bold">RFP Preparation</h5>
+                        <p class="card-text">
+                            Scope definition, vendor selection, proposal formats, and evaluation processes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-cogs icon"></i>
+                        <h5 class="card-title fw-bold">DPR Preparation</h5>
+                        <p class="card-text">
+                            Feasibility studies, technical designs, and financial modeling for solar plants.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-chart-line icon"></i>
+                        <h5 class="card-title fw-bold">Technical Analysis</h5>
+                        <p class="card-text">
+                            Site assessments, resource measurement, grid connectivity, and impact analysis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-dollar-sign icon"></i>
+                        <h5 class="card-title fw-bold">Project Costing</h5>
+                        <p class="card-text">
+                            CapEx, OpEx, ROI projections, and optimized cost solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Solar Journey?</h2>
+            <p>Contact me today for expert solar solutions tailored to your needs.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 Susheem Pandey | Solar Expert | <a href="contact.html">Contact Me</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

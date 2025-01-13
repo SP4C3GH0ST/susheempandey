@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Susheem Pandey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("veR-bxD1RwABMHo0Y");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navbar (Same as index.html) -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SUSHEEM PANDEY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Connect</a></li>
+                    <li class="nav-item"><a class="nav-link" href="advocacy-legal.html">Legal Advocacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speaker.html">Speaker Profile</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="solar-projects.html">Solar Projects</a></li>
+                            <li><a class="dropdown-item" href="power-distribution.html">Power Distribution</a></li>
+                            <li><a class="dropdown-item" href="energy-management.html">Energy Management</a></li>
+                            <li><a class="dropdown-item" href="business-development.html">Business Development</a></li>
+                            <li><a class="dropdown-item" href="leadership.html">Leadership</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="text-light">
+            <h1 class="display-4">About Me</h1>
+            <p class="lead">
+                <span style="color: #ffffff; font-weight: 600;">Electrical Engineer</span> & 
+                <span style="color: #ffffff; font-weight: 600;">Legal Professional</span> with 
+                <span style="color: #ffffff; font-weight: 600;">31+ Years</span> of 
+                <span style="color: #ffffff; font-weight: 600;">Industry Excellence</span>
+            </p>
+            <div class="mt-4">
+                <a href="#timeline" class="btn btn-lg btn-highlight">My Journey</a>
+                <a href="#contact" class="btn btn-lg btn-outline-light ms-3">Connect With Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="about-card navy-card animate-up">
+                <div class="row g-4">
+                    <!-- Photo Space -->
+                    <div class="col-lg-3">
+                        <div class="photo-space">
+                            <div class="photo-frame pulse-border">
+                                <img src="images/profile.jpg" alt="Susheem Pandey" class="profile-img">
+                                <div class="experience-badge">
+                                    <span class="years">31+</span>
+                                    <span class="text">Years</span>
+                                </div>
+                            </div>
+                            <div class="key-stats mt-4">
+                                <div class="stat-item">
+                                    <i class="fas fa-solar-panel fa-2x"></i>
+                                    <span class="highlight-text">1,804 MW+</span>
+                                    <p>Solar Power</p>
+                                </div>
+                                <div class="stat-item">
+                                    <i class="fas fa-globe-asia fa-2x"></i>
+                                    <span class="highlight-text">7 States</span>
+                                    <p>Coverage</p>
+                                </div>
+                                <div class="stat-item">
+                                    <i class="fas fa-project-diagram fa-2x"></i>
+                                    <span class="highlight-text">298,800+</span>
+                                    <p>Meters Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Content Space -->
+                    <div class="col-lg-9">
+                        <div class="about-content">
+                            <h2 class="section-title text-start mb-4 text-gold">My Journey</h2>
+                            <div class="about-text">
+                                <!-- Introduction -->
+                                <p class="text-light">As a <span class="highlight-text">multidisciplinary professional</span> with extensive expertise in the <span class="highlight-text">energy, electrical engineering, renewable energy</span>, and <span class="highlight-text">business development</span> sectors, I have a proven track record of <span class="highlight-text">leading large-scale projects</span>, developing innovative solutions, and driving business growth across <span class="highlight-text">India</span> and <span class="highlight-text">international markets</span>.</p>
+                                
+                                <p class="text-light">I specialize in <span class="highlight-text">solar power development</span>, <span class="highlight-text">smart metering solutions</span>, <span class="highlight-text">energy management</span>, and <span class="highlight-text">regulatory compliance</span>, with a strong focus on <span class="highlight-text">sustainability</span> and <span class="highlight-text">efficiency</span>. Throughout my career, I have consistently demonstrated an ability to successfully execute high-impact projects, navigate complex regulatory frameworks, and build strategic partnerships to foster growth and innovation.</p>
+
+                                <!-- Engineering and Technical Expertise -->
+                                <h4 class="text-gold mt-4">1. Engineering and Technical Expertise</h4>
+                                <p class="text-light">With a solid foundation in <span class="highlight-text">electrical engineering</span>, I have managed and executed a wide range of projects, from <span class="highlight-text">solar power installations</span> to <span class="highlight-text">smart grid systems</span> and <span class="highlight-text">advanced metering solutions</span>. My hands-on experience spans multiple domains within the energy sector, including:</p>
+
+                                <p class="text-light"><span class="highlight-text">Solar Power Projects:</span> Over the years, I have spearheaded the development of solar energy projects totaling <span class="highlight-text">1,804.135 MW</span> globally, with a focus on both <span class="highlight-text">utility-scale</span> and <span class="highlight-text">rooftop solar systems</span>. In <span class="highlight-text">India</span>, I have been involved in the implementation of significant solar projects such as:</p>
+                                <ul class="text-light">
+                                    <li><span class="highlight-text">100 MW</span> in <span class="highlight-text">Telangana</span> (including <span class="highlight-text">220 KV lines</span> for grid connectivity)</li>
+                                    <li><span class="highlight-text">1,200 MW</span> in <span class="highlight-text">Kurnool</span>, <span class="highlight-text">Andhra Pradesh</span></li>
+                                    <li><span class="highlight-text">600 MW</span> in <span class="highlight-text">Bikaner</span>, <span class="highlight-text">Rajasthan</span></li>
+                                    <li><span class="highlight-text">50 MW</span> in <span class="highlight-text">Andhra Pradesh (Tadipatri)</span></li>
+                                    <li><span class="highlight-text">135 kW</span> rooftop solar installations in <span class="highlight-text">Delhi</span> and <span class="highlight-text">Chandigarh</span></li>
+                                </ul>
+
+                                <p class="text-light">Additionally, I have played a critical role in <span class="highlight-text">solar projects in Bangladesh</span>, with <span class="highlight-text">300 MW</span> installed across multiple locations in Dhaka. These projects reflect my capacity to manage the technical, regulatory, and financial aspects of renewable energy, from concept to execution.</p>
+
+                                <p class="text-light"><span class="highlight-text">Transmission and Distribution Infrastructure:</span> In parallel with solar power, I have been responsible for implementing <span class="highlight-text">transmission lines</span> across different voltage levels. These include:</p>
+                                <ul class="text-light">
+                                    <li><span class="highlight-text">33 KV</span>, <span class="highlight-text">66 KV</span>, <span class="highlight-text">132 KV</span>, and <span class="highlight-text">220 KV lines</span> as part of various <span class="highlight-text">solar parks</span> and <span class="highlight-text">grid connections</span></li>
+                                    <li>Specific projects include <span class="highlight-text">10 MW</span> in <span class="highlight-text">Bihar</span> with a <span class="highlight-text">33 KV distribution line</span>, <span class="highlight-text">24 MW</span> in <span class="highlight-text">Punjab</span> with a <span class="highlight-text">66 KV line</span>, and <span class="highlight-text">100 MW</span> in <span class="highlight-text">Telangana</span> with a <span class="highlight-text">220 KV transmission line</span></li>
+                                </ul>
+
+                                <p class="text-light"><span class="highlight-text">Smart Metering Solutions:</span> I have led <span class="highlight-text">smart metering</span> and <span class="highlight-text">Automatic Metering Infrastructure (AMI)</span> projects across <span class="highlight-text">North India</span>. Key achievements include:</p>
+                                <ul class="text-light">
+                                    <li>Managing the installation of <span class="highlight-text">over 298,800 meters</span> in projects across multiple states</li>
+                                    <li>Securing and executing contracts for <span class="highlight-text">45,000 electronic meters</span> for <span class="highlight-text">Manipur Electricity Board</span> and <span class="highlight-text">250,000 meters</span> for <span class="highlight-text">Punjab State Electricity Board</span></li>
+                                    <li>Improving meter reading rates from <span class="highlight-text">14% to 45%</span> in <span class="highlight-text">two months</span> for <span class="highlight-text">BSES Rajdhani Power Ltd.</span></li>
+                                    <li>Executing <span class="highlight-text">smart grid</span> projects, including AMI-based systems and <span class="highlight-text">prepaid metering</span> for government consumers in <span class="highlight-text">BSES Delhi</span></li>
+                                </ul>
+
+                                <!-- Business Development and Strategic Growth -->
+                                <h4 class="text-gold mt-4">2. Business Development and Strategic Growth</h4>
+                                <p class="text-light">As a <span class="highlight-text">business development professional</span>, I have demonstrated expertise in identifying and capitalizing on <span class="highlight-text">emerging opportunities</span>, driving <span class="highlight-text">revenue growth</span>, and <span class="highlight-text">expanding market share</span>. My experience includes:</p>
+
+                                <p class="text-light"><span class="highlight-text">Strategic Market Expansion:</span> I have successfully led expansion efforts into <span class="highlight-text">new regions</span> and <span class="highlight-text">international markets</span>. In India, I spearheaded <span class="highlight-text">solar power</span> and <span class="highlight-text">metering projects</span> across <span class="highlight-text">7 states</span>, including <span class="highlight-text">Delhi</span>, <span class="highlight-text">Bihar</span>, <span class="highlight-text">Karnataka</span>, <span class="highlight-text">Punjab</span>, <span class="highlight-text">Madhya Pradesh</span>, <span class="highlight-text">Haryana</span>, and <span class="highlight-text">Uttar Pradesh</span>. Internationally, I expanded into <span class="highlight-text">Bangladesh</span>, developing solar projects and securing long-term contracts.</p>
+
+                                <p class="text-light"><span class="highlight-text">Total Solar Capacity Installed:</span> <span class="highlight-text">1,804.135 MW</span> globally, with significant contributions in India (<span class="highlight-text">504.135 MW</span>) and Bangladesh (<span class="highlight-text">300 MW</span>).</p>
+
+                                <!-- Legal and Regulatory Expertise -->
+                                <h4 class="text-gold mt-4">3. Legal and Regulatory Expertise</h4>
+                                <p class="text-light">Having served as a <span class="highlight-text">Bar Council Advocate</span>, I have extensive experience navigating the <span class="highlight-text">legal and regulatory frameworks</span> surrounding <span class="highlight-text">renewable energy</span> and <span class="highlight-text">infrastructure projects</span>. I provide legal guidance and support across the following areas:</p>
+
+                                <ul class="text-light">
+                                    <li><span class="highlight-text">Regulatory Support & Compliance:</span> Ensuring that projects meet <span class="highlight-text">national and state regulations</span>, including <span class="highlight-text">environmental compliance</span>, <span class="highlight-text">energy regulations</span>, and <span class="highlight-text">electrical safety standards</span>. I have worked with regulators like the <span class="highlight-text">Delhi Electricity Regulatory Commission (DERC)</span> and <span class="highlight-text">State Electricity Regulatory Commissions</span> to ensure projects are compliant and meet all necessary regulatory standards.</li>
+                                    
+                                    <li><span class="highlight-text">Contract Negotiations and Dispute Resolution:</span> I have drafted and negotiated critical contracts such as <span class="highlight-text">PPAs</span>, <span class="highlight-text">EPC contracts</span>, <span class="highlight-text">land acquisition agreements</span>, and <span class="highlight-text">operation contracts</span> for various energy projects. I am also experienced in handling disputes related to <span class="highlight-text">construction</span>, <span class="highlight-text">operations</span>, and <span class="highlight-text">project financing</span>.</li>
+                                    
+                                    <li><span class="highlight-text">Project Financing & Due Diligence:</span> I have led the <span class="highlight-text">due diligence</span> process for solar and energy projects, ensuring financial and legal soundness before investment. I have also structured financial deals, raising capital for projects and securing funding from <span class="highlight-text">private equity</span> and <span class="highlight-text">financial institutions</span>.</li>
+                                </ul>
+
+                                <!-- Clean Development Mechanism (CDM) -->
+                                <h4 class="text-gold mt-4">4. Clean Development Mechanism (CDM) and Energy Efficiency Projects</h4>
+                                <p class="text-light">With a focus on <span class="highlight-text">sustainability</span> and <span class="highlight-text">carbon reduction</span>, I have been actively involved in the <span class="highlight-text">Clean Development Mechanism (CDM)</span> and <span class="highlight-text">Energy Services Companies (ESCO)</span> projects. Some of my notable achievements include:</p>
+
+                                <ul class="text-light">
+                                    <li><span class="highlight-text">CFL-based CDM Project in Karnataka:</span> Successfully completed the first-of-its-kind <span class="highlight-text">CFL-based CDM project</span>, obtaining <span class="highlight-text">Carbon Emission Reductions (CERs)</span> from the <span class="highlight-text">UNFCCC</span>.</li>
+                                    <li><span class="highlight-text">Energy Audits and Energy Management:</span> Conducted <span class="highlight-text">energy audits</span> and <span class="highlight-text">energy management</span> for government establishments, improving their energy efficiency and lowering carbon emissions.</li>
+                                    <li><span class="highlight-text">ESCO Registration with ICRA:</span> Registered <span class="highlight-text">HPL India</span> as an <span class="highlight-text">ESCO</span> with <span class="highlight-text">ICRA</span> and played a key role in the <span class="highlight-text">Group Metering Project</span> in <span class="highlight-text">Madhya Pradesh</span>.</li>
+                                    <li><span class="highlight-text">Distribution Transformer Metering:</span> Managed <span class="highlight-text">distribution transformer metering</span> for <span class="highlight-text">BESCOM</span> and <span class="highlight-text">Madhya Pradesh Paschim Kshetra Vidyut Vitaran Nigam Ltd.</span> to improve grid efficiency.</li>
+                                </ul>
+
+                                <!-- Leadership & Team Management -->
+                                <h4 class="text-gold mt-4">5. Leadership & Team Management</h4>
+                                <p class="text-light">Throughout my career, I have consistently demonstrated strong leadership skills, managing <span class="highlight-text">cross-functional teams</span> and <span class="highlight-text">multi-disciplinary projects</span>. Key leadership accomplishments include:</p>
+
+                                <ul class="text-light">
+                                    <li>Leading <span class="highlight-text">sales teams</span> of up to <span class="highlight-text">12 personnel</span> in companies like <span class="highlight-text">Havell's India Ltd.</span>, ensuring that all team members met sales targets and contributed to the growth of the business.</li>
+                                    <li>Managing <span class="highlight-text">engineering teams</span>, ensuring efficient execution of large-scale projects, including <span class="highlight-text">solar power installations</span>, <span class="highlight-text">smart metering</span> initiatives, and <span class="highlight-text">energy efficiency projects</span>.</li>
+                                    <li>Providing <span class="highlight-text">mentorship</span> and <span class="highlight-text">guidance</span> to junior engineers and project managers, fostering a culture of collaboration, innovation, and performance.</li>
+                                </ul>
+
+                                <!-- Summary Section -->
+                                <h4 class="text-gold mt-4">Summary of Key Facts and Metrics</h4>
+                                <ul class="text-light">
+                                    <li><span class="highlight-text">1,804.135 MW</span> – Total solar power capacity installed globally (India: <span class="highlight-text">504.135 MW</span>; Bangladesh: <span class="highlight-text">300 MW</span>)</li>
+                                    <li><span class="highlight-text">298,800</span> – Meters installed across various projects</li>
+                                    <li><span class="highlight-text">45,000</span> – Electronic meters for <span class="highlight-text">Manipur Electricity Board</span></li>
+                                    <li><span class="highlight-text">250,000</span> – Meters for <span class="highlight-text">Punjab State Electricity Board</span></li>
+                                    <li><span class="highlight-text">7</span> – States served with renewable energy and metering projects</li>
+                                    <li><span class="highlight-text">12</span> – Sales personnel led to drive growth at <span class="highlight-text">Havell's India Ltd.</span></li>
+                                    <li><span class="highlight-text">100 MW</span> – Solar project capacity in <span class="highlight-text">Telangana</span></li>
+                                    <li><span class="highlight-text">33 KV, 66 KV, 132 KV, 220 KV</span> – Transmission lines installed for solar park connectivity</li>
+                                    <li><span class="highlight-text">1st</span> – CFL-based CDM project completed in Karnataka with <span class="highlight-text">UNFCCC CERs</span> approval</li>
+                                </ul>
+
+                                <!-- Final Thoughts -->
+                                <h4 class="text-gold mt-4">Final Thoughts</h4>
+                                <p class="text-light">With a strong foundation in <span class="highlight-text">engineering</span>, <span class="highlight-text">business development</span>, <span class="highlight-text">project management</span>, and <span class="highlight-text">legal expertise</span>, I bring a unique combination of skills that make me a driving force in the renewable energy sector. I am passionate about <span class="highlight-text">sustainability</span>, <span class="highlight-text">energy efficiency</span>, and <span class="highlight-text">innovative technologies</span>, and my career reflects this commitment to creating a <span class="highlight-text">greener future</span> through <span class="highlight-text">solar power</span>, <span class="highlight-text">smart metering</span>, and <span class="highlight-text">clean development mechanisms</span>.</p>
+
+                                <!-- Areas of Expertise Section -->
+                                <div class="expertise-areas mt-5">
+                                    <h3 class="text-gold mb-4">Areas of Expertise</h3>
+                                    <div class="row g-4">
+                                        <div class="col-md-6">
+                                            <div class="expertise-item animate-hover">
+                                                <i class="fas fa-solar-panel"></i>
+                                                <span>Solar Power Projects (1,804.135 MW Global)</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="expertise-item animate-hover">
+                                                <i class="fas fa-plug"></i>
+                                                <span>Smart Metering Solutions (298,800+ Installations)</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="expertise-item animate-hover">
+                                                <i class="fas fa-network-wired"></i>
+                                                <span>Power Distribution & Grid Management</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="expertise-item animate-hover">
+                                                <i class="fas fa-balance-scale"></i>
+                                                <span>Legal & Regulatory Compliance</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="expertise-item animate-hover">
+                                                <i class="fas fa-chart-line"></i>
+                                                <span>Business Development & Strategy</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="expertise-item animate-hover">
+                                                <i class="fas fa-leaf"></i>
+                                                <span>Clean Development Mechanism (CDM)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">My Career Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>1989</h5>
+                            <p>BE (Electrical & Power)</p>
+                            <p class="small">Nagpur University</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>1989-1991</h5>
+                            <p>Altec Devices Ltd</p>
+                            <p class="small">Assistant Production In-charge</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>1992-2000</h5>
+                            <p>Avery India Ltd</p>
+                            <p class="small">Manager Sales & Development</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>1999</h5>
+                            <p>PGDM Marketing</p>
+                            <p class="small">AIMA, Delhi (83% MAT)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2000-2001</h5>
+                            <p>Accurate Meters Ltd</p>
+                            <p class="small">Business Manager</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2002</h5>
+                            <p>Havell's India Ltd</p>
+                            <p class="small">Sales Manager</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2003-2004</h5>
+                            <p>Genus Electronics</p>
+                            <p class="small">Regional Head</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2004</h5>
+                            <p>Certified Energy Manager</p>
+                            <p class="small">Bureau of Energy Efficiency</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2004-2010</h5>
+                            <p>BSES Rajdhani Power</p>
+                            <p class="small">General Manager</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2008</h5>
+                            <p>PGDM Energy Management</p>
+                            <p class="small">MDI Gurgaon</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2010-2012</h5>
+                            <p>HPL India Ltd</p>
+                            <p class="small">GM Special Projects</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2012-2014</h5>
+                            <p>EDMI India Ltd</p>
+                            <p class="small">Regional Manager North</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2014-2015</h5>
+                            <p>Essel Utilities</p>
+                            <p class="small">AVP Technical</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2015-2017</h5>
+                            <p>Azure Power</p>
+                            <p class="small">Project Head</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2017-2019</h5>
+                            <p>Orion Power Dhaka</p>
+                            <p class="small">Vice President</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2019-2023</h5>
+                            <p>Viviid Renewables</p>
+                            <p class="small">VP Head Solar</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2023</h5>
+                            <p>LLB</p>
+                            <p class="small">Meerut University</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <h5>2024</h5>
+                            <p>Elanor Renewables</p>
+                            <p class="small">Co-Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Let's Connect</h2>
+                    <p class="lead">Discuss your energy and legal requirements</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98103 36031</p>
+                        <p><i class="fas fa-envelope"></i> susheem66@yahoo.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form-wrapper">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-highlight">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Susheem Pandey | Solar Innovation & Advocacy</p>
+            <div>
+                <a href="#" class="mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- WhatsApp Float -->
+    <script src="js/whatsapp-float.js"></script>
+</body>
+</html>

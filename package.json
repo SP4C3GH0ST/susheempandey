@@ -1,0 +1,19 @@
+{
+  "name": "susheempandey-website",
+  "version": "1.0.0",
+  "description": "Personal website for Susheem Pandey showcasing solar innovation and legal advocacy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solar",
+    "energy",
+    "legal",
+    "advocacy",
+    "renewable",
+    "power distribution"
+  ],
+  "author": "Susheem Pandey",
+  "license": "ISC"
+} 

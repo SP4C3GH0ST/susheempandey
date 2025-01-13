@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Projects - Susheem Pandey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("veR-bxD1RwABMHo0Y");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SUSHEEM PANDEY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Connect</a></li>
+                    <li class="nav-item"><a class="nav-link" href="advocacy-legal.html">Legal Advocacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speaker.html">Speaker Profile</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            More
+                        </a>
+                        <ul class="dropdown-menu bg-lightblue">
+                            <li><a class="dropdown-item text-dark fw-bold active" href="solar-projects.html">Solar Projects</a></li>
+                            <li><a class="dropdown-item text-dark fw-bold" href="power-distribution.html">Power Distribution</a></li>
+                            <li><a class="dropdown-item text-dark fw-bold" href="energy-management.html">Energy Management</a></li>
+                            <li><a class="dropdown-item text-dark fw-bold" href="business-development.html">Business Development</a></li>
+                            <li><a class="dropdown-item text-dark fw-bold" href="leadership.html">Leadership</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="text-light">
+            <h1 class="display-4">Solar Power Excellence</h1>
+            <p class="lead">
+                <span style="color: #ffffff; font-weight: 600;">Comprehensive Expertise</span> in 
+                <span style="color: #ffffff; font-weight: 600;">Solar Energy Projects</span>, 
+                <span style="color: #ffffff; font-weight: 600;">Integration</span>, and 
+                <span style="color: #ffffff; font-weight: 600;">Development</span>
+            </p>
+            <div class="mt-4">
+                <a href="#projects" class="btn btn-lg btn-highlight">View Projects</a>
+                <a href="#contact" class="btn btn-lg btn-outline-light ms-3">Discuss Your Project</a>
+            </div>
+        </div>
+    </header>
+
+        <!-- Solar Projects Services Section -->
+        <section id="services" class="tiles py-5">
+            <div class="container">
+                <h2 class="section-title">Solar Power Excellence</h2>
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-solar-panel fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Large-Scale Solar Power Projects</h5>
+                            <p>Leading the Way in Large Solar Capacity Installations</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>1,804.135 MW total capacity across India & Bangladesh</li>
+                                <li><i class="fas fa-check text-success me-2"></i>600 MW Solar Park in Bikaner</li>
+                                <li><i class="fas fa-check text-success me-2"></i>1,200 MW Solar Park in Kurnool</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-building fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Rooftop Solar Solutions</h5>
+                            <p>Empowering Buildings with Sustainable Rooftop Solar Systems</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>135 kW rooftop installations</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Trident Hotels & Oberoi Hotel projects</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Building management integration</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-plug fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Solar Grid Integration</h5>
+                            <p>Seamlessly Integrating Solar Power into the National Grid</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>33 KV to 132 KV transmission lines</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Grid connection design</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Power evacuation systems</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 4 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-map-marked-alt fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Multi-State Development</h5>
+                            <p>Extensive Experience Across States in Solar Power Deployment</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Projects in 5+ major states</li>
+                                <li><i class="fas fa-check text-success me-2"></i>100 MW Kurnool installation</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Urban & rural solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 5 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-network-wired fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Feeder Integration</h5>
+                            <p>Enhancing Solar Power Distribution via Feeder Integration</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Feeder separation projects</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Grid stability optimization</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Rural area integration</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 6 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-money-bill-wave fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Project Financing</h5>
+                            <p>Securing Capital for Solar Energy Projects</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Large-scale project financing</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Investment structuring</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Resource optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 7 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-lightbulb fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Innovation & Technology</h5>
+                            <p>Driving Innovation in Solar Technology Solutions</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Advanced PV systems</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Smart grid integration</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Battery storage solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 8 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-leaf fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>Environmental Impact</h5>
+                            <p>Promoting Clean, Green Energy Solutions</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Zero emission generation</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Carbon footprint reduction</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Sustainable development</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Card 9 -->
+                    <div class="col-md-4">
+                        <div class="tile">
+                            <div class="connect-icon">
+                                <i class="fas fa-globe-asia fa-2x" style="color: #002244;"></i>
+                            </div>
+                            <h5>International Expansion</h5>
+                            <p>Expanding Solar Solutions Beyond Borders</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-success me-2"></i>300 MW Bangladesh projects</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Cross-border collaboration</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Southeast Asia expansion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!-- Solar Innovation Impact Section -->
+       <section class="bg-navy-gradient py-5">
+        <div class="container">
+            <h2 class="section-title">Solar Innovation Impact</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-solar-panel" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">1804.135</h3>
+                        <p>MW Total Solar Power Capacity Installed (India & Bangladesh)</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-sun" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">504.135</h3>
+                        <p>MW Solar Power Capacity Installed Across India</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-globe-asia" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">300</h3>
+                        <p>MW Solar Power Installed in Bangladesh</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-industry" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">600</h3>
+                        <p>MW Solar Park in Bikaner, Rajasthan</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-city" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">1200</h3>
+                        <p>MW Solar Park in Kurnool, Andhra Pradesh</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-building" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">135</h3>
+                        <p>kW Rooftop Solar Projects in Chandigarh and Delhi</p>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-bolt" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">100</h3>
+                        <p>MW Solar Project in Telangana</p>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-md-3">
+                    <div class="tile text-center">
+                        <div class="stat-icon pulse-border">
+                            <i class="fas fa-charging-station" style="color: #fbc02d;"></i>
+                        </div>
+                        <h3 class="counter">50</h3>
+                        <p>MW Solar Project in Andhra Pradesh (Tadipatri)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Projects -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Featured Projects</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card animate-up">
+                        <div class="project-image">
+                            <img src="images/rajasthan-solar.jpg" alt="Rajasthan Solar Park">
+                            <div class="project-overlay">
+                                <span class="project-category">Utility Scale</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Rajasthan Solar Park</h3>
+                            <p>600 MW utility-scale solar installation</p>
+                            <ul class="project-highlights">
+                                <li><i class="fas fa-check"></i> Largest single-location project</li>
+                                <li><i class="fas fa-check"></i> Advanced tracking system</li>
+                                <li><i class="fas fa-check"></i> 24/7 monitoring</li>
+                            </ul>
+                            <a href="project-1.html" class="btn btn-highlight w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card animate-up delay-1">
+                        <div class="project-image">
+                            <img src="images/industrial-solar.jpg" alt="Industrial Rooftop">
+                            <div class="project-overlay">
+                                <span class="project-category">Industrial</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Industrial Rooftop</h3>
+                            <p>25 MW rooftop installation for manufacturing</p>
+                            <ul class="project-highlights">
+                                <li><i class="fas fa-check"></i> Zero carbon manufacturing</li>
+                                <li><i class="fas fa-check"></i> Smart energy storage</li>
+                                <li><i class="fas fa-check"></i> Real-time monitoring</li>
+                            </ul>
+                            <a href="project-2.html" class="btn btn-highlight w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card animate-up delay-2">
+                        <div class="project-image">
+                            <img src="images/floating-solar.jpg" alt="Floating Solar Plant">
+                            <div class="project-overlay">
+                                <span class="project-category">Innovative</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Floating Solar Plant</h3>
+                            <p>150 MW floating solar installation</p>
+                            <ul class="project-highlights">
+                                <li><i class="fas fa-check"></i> Water conservation</li>
+                                <li><i class="fas fa-check"></i> Enhanced efficiency</li>
+                                <li><i class="fas fa-check"></i> Dual-purpose usage</li>
+                            </ul>
+                            <a href="project-3.html" class="btn btn-highlight w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Ready to Go Solar?</h2>
+                    <p class="lead">Let's discuss your solar power needs</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i>  +91 98103 36031 </p>
+                        <p><i class="fas fa-envelope"></i> susheem66@yahoo.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" onsubmit="return sendMail(event)">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" class="form-control" rows="4" placeholder="Project Details" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-highlight w-100">Send Message</button>
+                        </form>
+                        <div id="successMessage" style="display:none" class="alert alert-success mt-3">
+                            Message sent successfully!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Susheem Pandey | Solar Innovation & Advocacy</p>
+            <div>
+                <a href="#" class="mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- WhatsApp Float -->
+    <script src="js/whatsapp-float.js"></script>
+    <script>
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-up');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+
+            // Counter animation
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                const target = parseInt(counter.innerText);
+                counter.innerText = '0';
+                
+                const updateCounter = () => {
+                    const count = parseInt(counter.innerText);
+                    const increment = target / 200;
+                    
+                    if(count < target) {
+                        counter.innerText = Math.ceil(count + increment);
+                        setTimeout(updateCounter, 1);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+                
+                updateCounter();
+            });
+        });
+
+        function sendMail(e) {
+            e.preventDefault();
+            
+            const btn = e.target.querySelector('button[type="submit"]');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = 'Sending...';
+            btn.disabled = true;
+
+            const templateParams = {
+                from_name: e.target.name.value,
+                email: e.target.email.value,
+                message: e.target.message.value
+            };
+
+            emailjs.send('service_6f132go', 'template_0iyqqa4', templateParams)
+                .then(function() {
+                    document.getElementById('successMessage').style.display = 'block';
+                    e.target.reset();
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        document.getElementById('successMessage').style.display = 'none';
+                    }, 5000);
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    alert('Failed to send message. Please try again.');
+                });
+
+            return false;
+        }
+    </script>
+</body>
+</html>
